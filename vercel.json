@@ -30,6 +30,9 @@
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie"
     },
+    "commands": {
+        "build": "npm run build && php artisan optimize"
+      },
         "outputDirectory": "public"
         
     
